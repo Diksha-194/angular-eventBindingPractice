@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./description.component.css']
 })
 export class DescriptionComponent implements OnInit {
-name : 'diksha';
+name = 'diksha';
   constructor() { }
 
   ngOnInit() {
